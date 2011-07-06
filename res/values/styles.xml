@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="DroidCoatTextBase" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:typeface">sans</item>
+		<item name="android:textSize">24dip</item>
+		<item name="android:textColor">@color/DroidCoatTextWhite</item>
+		<item name="android:background">@null</item>
+		<item name="android:includeFontPadding">false</item>
+	</style>
+	<style name="DroidCoatNoDevice" parent="@style/DroidCoatTextBase">
+		<item name="android:textSize">30dip</item>
+	</style>
+		<style name="DroidCoatControlLabel" parent="@style/DroidCoatTextBase">
+		<item name="android:textSize">15dip</item>
+		<item name="android:textColor">@color/DroidCoatLabelGray</item>
+		<item name="android:includeFontPadding">true</item>
+		<item name="android:layout_height">25dip</item>
+		<item name="android:lineSpacingExtra">2dip</item>
+	</style>
+	<style name="DroidCoatLEDText" parent="@style/DroidCoatControlLabel">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+</resources>
